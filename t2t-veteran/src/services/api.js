@@ -4,8 +4,7 @@ import Constants from 'expo-constants';
 
 
 const getBaseUrl = () => {
-
-    return API_BASE_URL;
+    return "https://backend-dev-hosted.onrender.com/api";
 };
 
 export const apiCall = async (endpoint, method = 'GET', body = null) => {
